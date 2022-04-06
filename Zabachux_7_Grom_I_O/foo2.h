@@ -18,8 +18,8 @@ int tfzad()
 	double Y, n;
 	cout << "Enther n-> ";
 	cin >> n;
-
-	if (n < 10)
+	
+	if (typeid(n) ==  typeid(int) && n < 10)
 	{
 		Y = 0;
 		for (int i = 1; i <= n; i++)
